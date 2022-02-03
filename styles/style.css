@@ -20,7 +20,7 @@ nav{
 }
 
 nav>div>img{
-    width: 120px;
+    width: 100px;
 }
 
 nav>p{
@@ -38,12 +38,12 @@ main{
 main>h1{
     margin: 0rem 0rem;
     font-family: var(--letra-Open-Sans);
-    font-size: ;
+    align-content: center;
 }
 main>h1+p{
     margin: 3rem 0rem;
     font-family: var(--letra-Open-Sans);
-    font-weight: 500;
+    font-weight: 700px;
 }
 main>p:last-child{
     margin: 2rem 2rem;
@@ -54,8 +54,11 @@ main>p:last-child{
     font-family: var(--letra-Open-Sans);
     font-weight: 600;
 }
-
-
+section{
+     margin: 8rem 2rem;
+    padding: .5rem ;
+      
+}
 
 
 

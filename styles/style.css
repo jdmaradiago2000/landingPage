@@ -1,64 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-:root{
-    --letra-poppins:'Poppins', sans-serif;
-    --letra-Open-Sans:'Open Sans', sans-serif;
-}
-
-*{
-    margin: 0rem;
-    padding: 0rem;
-    box-sizing: border-box;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem;
-    margin-bottom: 5rem;
+:root {
+  --letra-poppins: "Poppins", sans-serif;
+  --letra-Open-Sans: "Open Sans", sans-serif;
 }
 
-nav>div>img{
-    width: 100px;
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 5rem;
 }
 
-nav>p{
-    padding: 0.3rem 1.3rem;
-    color: hsl(321, 100%, 78%);
-    border: 1px solid hsl(321, 100%, 78%);
-    border-radius: 20px;
-    font-family: var(--letra-poppins);
-}
-main{
-    margin: 2rem 2rem;
-    text-align:center;
+nav > div > img {
+  width: 100px;
 }
 
-main>h1{
-    margin: 0rem 0rem;
-    font-family: var(--letra-Open-Sans);
-    align-content: center;
+nav > p {
+  padding: 0.3rem 1.3rem;
+  color: hsl(321, 100%, 78%);
+  border: 1px solid hsl(321, 100%, 78%);
+  border-radius: 20px;
+  font-family: var(--letra-poppins);
 }
-main>h1+p{
-    margin: 3rem 0rem;
-    font-family: var(--letra-Open-Sans);
-    font-weight: 700px;
-}
-main>p:last-child{
-    margin: 2rem 2rem;
-    padding: 1rem 1rem;
-    color: white;   
-    background-color: hsl(322, 100%, 66%);
-    border-radius: 40px;  
-    font-family: var(--letra-Open-Sans);
-    font-weight: 600;
-}
-section{
-     margin: 8rem 2rem;
-    padding: .5rem ;
-      
+main {
+  margin: 2rem 2rem;
+  text-align: center;
 }
 
+main > h1 {
+  margin: 0rem 0rem;
+  font-family: var(--letra-Open-Sans);
+  align-content: center;
+}
+main > h1 + p {
+  margin: 3rem 0rem;
+  font-family: var(--letra-Open-Sans);
+  font-weight: 700px;
+}
+main > p:last-child {
+  margin: 2rem 2rem;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 40px;
+  font-family: var(--letra-Open-Sans);
+  font-weight: 600;
+}
+section {
+  position: absolute;
+  margin: 8rem 2rem;
+  padding: 1.5rem;
+}
+#social > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.cont-social span {
+  font-weight: 700px;
+  font-family: var(--letra-poppins);
+  font-size: 30px;
+}
 
 

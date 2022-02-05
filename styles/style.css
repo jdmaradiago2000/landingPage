@@ -54,6 +54,7 @@ main>p:last-child{
     border-radius: 40px;  
     font-family: var(--letra-Open-Sans);
     font-weight: 600;
+    box-shadow: 10px 10px 97px -30px rgba(0,0,0,1);
 }
 main>p:last-child:hover{
     cursor: pointer;

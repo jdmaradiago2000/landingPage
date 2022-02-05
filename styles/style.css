@@ -23,36 +23,45 @@ nav > div > img {
   width: 100px;
 }
 
-nav > p {
-  padding: 0.3rem 1.3rem;
-  color: hsl(321, 100%, 78%);
-  border: 1px solid hsl(321, 100%, 78%);
-  border-radius: 20px;
-  font-family: var(--letra-poppins);
+nav>p{
+    padding: 0.3rem 1.3rem;
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 20px;
+    font-family: var(--letra-poppins);
 }
-main {
-  margin: 2rem 2rem;
-  text-align: center;
+nav>p:hover{
+    cursor: pointer;
+}
+main{
+    margin: 2rem 2rem;
+    text-align:center;
 }
 
-main > h1 {
-  margin: 0rem 0rem;
-  font-family: var(--letra-Open-Sans);
-  align-content: center;
+main>h1{
+    margin: 0rem 0rem;
+    font-family: var(--letra-Open-Sans);
+
 }
 main > h1 + p {
   margin: 3rem 0rem;
   font-family: var(--letra-Open-Sans);
   font-weight: 700px;
 }
-main > p:last-child {
-  margin: 2rem 2rem;
-  padding: 1rem 1rem;
-  color: white;
-  background-color: hsl(322, 100%, 66%);
-  border-radius: 40px;
-  font-family: var(--letra-Open-Sans);
-  font-weight: 600;
+
+main>p:last-child{
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+    color: white;   
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 40px;  
+    font-family: var(--letra-Open-Sans);
+    font-weight: 600;
+    box-shadow: 10px 10px 97px -30px rgba(0,0,0,1);
+}
+main>p:last-child:hover{
+    cursor: pointer;
+
 }
 
 #social{

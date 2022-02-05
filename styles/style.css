@@ -1,9 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 
-:root {
-  --letra-poppins: "Poppins", sans-serif;
-  --letra-Open-Sans: "Open Sans", sans-serif;
+:root{
+    --letra-poppins:'Poppins', sans-serif;
+    --letra-Open-Sans:'Open Sans', sans-serif;
+    --letra-footer: 'Rubik', sans-serif;
 }
 
 * {
@@ -64,6 +66,7 @@ main>p:last-child:hover{
 
 }
 
+
 #social{
 
   margin: 8rem 2rem;
@@ -110,4 +113,140 @@ main>p:last-child:hover{
   justify-content:space-between;
 
 }
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+}
+
+
+#footer_background{
+    width: 100%;
+    height: 158px;
+    background-image: url('../images/bg-footer-top-desktop.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: red; 
+}
+
+#footer_section4{
+    display: flex;
+    flex-direction: row;
+    padding: 75px;
+    width: 100%;
+    height: 570px;
+    background: #00252E;
+}
+
+.title_footer{
+    display: flex;
+    height: 75px;
+    flex-direction: row;   
+}
+
+#contact{
+    width: 58%;
+    padding-right: 200px;  
+}
+
+#contact h2{
+    font-family: var(--letra-footer);
+    font-size: 45px;
+}
+
+.contact_info{
+    margin-top: 30px;
+}
+
+.contact_info > p {
+    padding: 20px 0px;
+    display: contents;
+}
+
+#register{
+    width: 35%; 
+}
+
+#register h2{
+    font-family: var(--letra-footer);
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+#suscribe{
+    margin-top: 40px;
+}
+
+#suscribe input{
+    border-radius: .5em;
+    width: 270px;
+    height: 43px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+#suscribe > button{
+    color: white;
+    font-size: 15px;
+    font-family: var(--letra-footer);
+    width: 125px;
+    background-color: #FF52BF;
+    border-radius: .5em;
+    padding: 14px;
+}
+
+@media only screen and (max-width: 849px){
+    #register{
+        width: 100%; 
+        margin-bottom: 117px;
+        margin-top: 40px;
+    }
+
+    #contact{
+        width: 100%;
+        padding-right: 0px; 
+        padding-bottom: 40px; 
+    }
+
+    #footer_section4{
+        flex-direction: column-reverse;
+        padding: 190px;
+        margin: auto;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        height: auto;
+    }
+
+    #suscribe input{
+        width: 100%;
+    }
+
+    #suscribe > button{
+        position: absolute;
+        right: 188px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 599px){
+    #footer_section4{
+        padding: 40px;
+        height: auto;
+        font-size: 20px;
+
+    }
+
+    #suscribe > button{
+        right: 41px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #footer_background{
+        background-image: url('../images/bg-footer-top-mobile.svg');
+        height: 49px;
+    }
 }
